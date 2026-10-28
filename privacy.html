@@ -10,7 +10,7 @@
 <main>
 <nav class="nav"><a href="index.html">Sielli eSIM</a> · <a href="support.html">Support</a> · <a href="terms.html">Terms of Service</a></nav>
 <h1>Sielli eSIM (formerly Zeli eSIM) — Privacy Policy</h1>
-<p class="effective"><strong>Effective date:</strong> August 29, 2026</p>
+<p class="effective"><strong>Effective date:</strong> August 29, 2026 · <strong>Last updated:</strong> 28 October 2026</p>
 
 <h2>1. Who we are</h2>
 <p>Sielli eSIM is an iOS app for buying travel eSIM data plans, available on the App Store.</p>
@@ -20,18 +20,33 @@
 <h2>2. What data we collect and why</h2>
 <p>We collect only what is needed to run the app:</p>
 <ul>
-<li><strong>Email address</strong> — collected when you sign in with Sign in with Apple, used to identify your account and contact you about your orders.</li>
-<li><strong>User identifier</strong> — the unique account identifier created at sign-in, used to link your purchases and eSIMs to your account.</li>
-<li><strong>Purchase history</strong> — the eSIM data plans you buy, used to show your orders and installed eSIMs in the app.</li>
+<li><strong>Email address</strong> — from Sign in with Apple (which may be a private relay address), from the email you enter for a one-time sign-in code, or, if you check out as a guest, the email you type on the payment screen. It is used to identify your account and to send your receipt, install details and other messages about your orders.</li>
+<li><strong>User identifier</strong> — the unique account identifier created at sign-in (guest checkout creates an anonymous account with an identifier but no sign-in details), used to link your purchases and eSIMs to your account.</li>
+<li><strong>Purchase history</strong> — the eSIM data plans you buy, your refund requests and any store credit you earn or spend, used to show your orders and installed eSIMs in the app.</li>
 </ul>
-<p>All of this data is <strong>linked to your account</strong> and used <strong>only for app functionality</strong> — to let you sign in, buy a plan, and see your eSIMs. We do not use it for advertising, we do not run analytics SDKs, we do not track you across apps or websites, and we do not sell your data.</p>
+<p>This data is <strong>linked to your account</strong> and used for app functionality — to let you sign in, buy a plan, see your eSIMs and get support.</p>
+<h3>Product usage analytics</h3>
+<p>We record a small number of in-app events (for example which screens and destinations you view, the stage of checkout you reach, and, if you search for a destination we do not list, a short search term) so we can find and fix problems in the buying flow. These are collected by our own backend — we do not use any third-party analytics SDK. Events are <strong>linked to your account</strong> and are <strong>deleted automatically after 90 days</strong>. We also keep a small profile record per account (your device's region and language setting, the app version, and first and last seen dates). It does not use your location. We do not use this data for tracking.</p>
+<h3>Apple Search Ads attribution</h3>
+<p>Once per install, the app asks Apple (through Apple's AdServices framework) whether the download came from an Apple Search Ads campaign. If it did, Apple returns campaign identifiers, which we store with your account to measure whether our advertising works. This is <strong>linked to your account</strong>, used for analytics only, and is <strong>not used to track you</strong> across other companies' apps or websites. We do not use your advertising identifier (IDFA) and the app does not ask for App Tracking Transparency permission.</p>
+<p>We do not sell your data, and we do not track you across apps or websites.</p>
 <h3>Sign-in</h3>
-<p>Sielli eSIM supports <strong>Sign in with Apple only</strong>. We never see or store your Apple password, and depending on your choice, Apple may share only a private relay email address with us.</p>
-<h3>On-device storage</h3>
-<p>The app keeps a small local record on your device (in Apple's <code>UserDefaults</code>) of which eSIMs you've already installed, so the app can show the right install status. This record stays on your device and is not sent to our servers.</p>
+<p>Sielli eSIM supports <strong>Sign in with Apple</strong>, <strong>email sign-in with a one-time code</strong>, and <strong>guest checkout</strong> (an anonymous account created when you buy without signing in; you can add Apple or an email to it afterwards). We never see or store your Apple password. The free trial eSIM requires a signed-in account, not a guest one.</p>
+<h3>Emails we send</h3>
+<p>We send transactional emails about your purchases: your receipt, install details and, if we have to refund an order, a refund notice. If you start a checkout with a signed-in account and do not finish it, we may send you one reminder; it carries an unsubscribe instruction and we stop sending when you ask. Guests never receive reminders.</p>
+<h3>Optional features that stay on your device</h3>
+<p>The following never leave your device — we do not receive, store or transmit them:</p>
+<ul>
+<li><strong>Calendar (Trips tab).</strong> Only if you tap “Find my trips” and allow access in iOS, the app reads your calendar events on your device to suggest plans for upcoming trips. Event details are used in memory and discarded; only the inferred destination country and trip dates are kept on your device.</li>
+<li><strong>Location (arrival banner).</strong> Only if you allow it (“While Using the App”), the app matches your position to a country on your device, using a map bundled in the app, to suggest a plan after you land. The last position, country and time are kept on your device only.</li>
+<li><strong>Reminders.</strong> If you allow notifications, install, expiry and data-use reminders are scheduled and delivered by your device.</li>
+<li><strong>Crash and performance reports.</strong> Reports provided by iOS (MetricKit) are stored on your device only and are not uploaded.</li>
+<li><strong>Install status.</strong> The app keeps a small local record (in Apple's <code>UserDefaults</code>) of which eSIMs you have installed, so it can show the right install status, together with an offline copy of your eSIM library so you can install without a connection.</li>
+</ul>
+<p>Each of these is optional: the app works if you decline.</p>
 
 <h2>3. Payments</h2>
-<p>Payments are processed by <strong>Stripe</strong> (Stripe Payments Europe). Sielli eSIM never sees, collects, or stores your card number or other card details — that data is handled entirely by Stripe. Prices are shown in USD.</p>
+<p>Payments are processed by <strong>Stripe</strong> (Stripe Payments Europe). Sielli eSIM never sees, collects, or stores your card number or other card details — that data is handled entirely by Stripe. Prices are shown and charged in <strong>US dollars or euros</strong>, depending on your device's region. You can pay with Apple Pay or a card. If you check out as a guest, Stripe also receives the email address you enter on the payment screen.</p>
 
 <h2>4. eSIM delivery</h2>
 <p>Once you buy a plan, your eSIM is provisioned by our provider, <strong>eSIM Access</strong>. Your eSIM profile is installed on your device and keeps working there even if you later delete your Sielli eSIM account.</p>
@@ -44,20 +59,23 @@
 <div class="table-wrap">
 <table>
 <tr><th>Processor</th><th>Purpose</th><th>Data involved</th></tr>
-<tr><td>Apple</td><td>Sign in with Apple</td><td>Email, user identifier</td></tr>
+<tr><td>Apple</td><td>Sign in with Apple, Apple Pay, Apple Search Ads attribution (AdServices)</td><td>Email (or private relay address), user identifier; an Apple-issued attribution token</td></tr>
 <tr><td>Stripe (Stripe Payments Europe)</td><td>Payment processing</td><td>Purchase/payment details (card data never reaches us)</td></tr>
 <tr><td>Supabase</td><td>Backend hosting &amp; database (EU)</td><td>Account, order, and eSIM data</td></tr>
 <tr><td>eSIM Access</td><td>eSIM provisioning</td><td>Order details needed to issue your eSIM</td></tr>
+<tr><td>Resend</td><td>Email delivery (sign-in codes, receipts, install details, refund notices)</td><td>Your email address and the content of the message</td></tr>
 </table>
 </div>
 
 <h2>7. Data retention</h2>
-<p>We retain your account data for as long as your account exists. If you delete your account, we delete your personal data from our backend (see below). Stripe and eSIM Access retain their own financial and provider records for as long as required by their own legal and accounting obligations — this is outside our control and is normal for any regulated payment or telecom provider.</p>
+<p>We retain your account data, including your order history, for as long as your account exists. Product analytics events are deleted automatically after 90 days, and the periodic data-usage readings we keep for your eSIMs after 30 days. If you delete your account, we delete your account, orders, eSIM records and store credit from our backend (see below). Stripe and eSIM Access retain their own financial and provider records for as long as required by their own legal and accounting obligations — this is outside our control and is normal for any regulated payment or telecom provider.</p>
 
 <h2>8. Account deletion</h2>
-<p>You can delete your account at any time from <strong>Settings → account deletion</strong> in the app. This deletes your account and associated personal data from our backend. Notes:</p>
+<p>You can delete your account at any time from the <strong>Account</strong> tab in the app (<strong>Delete account</strong>). This deletes your account and associated personal data from our backend, revokes your Sign in with Apple authorisation if you used it, and forfeits any store credit you hold. Notes:</p>
 <ul>
 <li>Stripe and eSIM Access retain financial/provider records as required by law.</li>
+<li>Analytics events that were already recorded are detached from your account (they no longer identify you) and are deleted within 90 days.</li>
+<li>If a purchase is still being processed, deletion is paused until it settles; try again a few minutes later.</li>
 <li>Any eSIM you already installed keeps working on your device — deleting your account does not disable a provisioned eSIM.</li>
 </ul>
 
